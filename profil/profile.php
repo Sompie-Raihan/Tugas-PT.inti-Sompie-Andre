@@ -51,8 +51,8 @@ $PIC = $_SESSION['gambar'];
         <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
           <li class="<?php if($USER == ""){echo "nav-link pe-2" ;} else {echo "dropdown pe-2";}?>"><a href="<?php if($USER == ""){echo "./inc/login.php" ;} else {echo "#";}?>"><span><?php if($NAMA == ""){echo "Sign-In";} else {echo $NAMA;}?></span></a>
             <ul class="<?php if($USER == ""){echo "d-none";}?>">
-              <li><a href="./profil/profile.php">Profile</a></li>
-              <li><a href="./inc/logout.php">Logout</a></li>
+              <li><a href="../profil/profile.php">Profile</a></li>
+              <li><a href="../inc/logout.php">Logout</a></li>
             </ul>
           </li>
         </ul>
