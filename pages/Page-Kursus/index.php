@@ -68,7 +68,7 @@ $KURSUS = mysqli_fetch_array($DATA);
             <hr class="sidebar-divider my-0">
             <!-- Nav Item - Dashboard -->
 
-            <?php $DATA = mysqli_query($KONEKSI,"SELECT * FROM tbl_kursus WHERE id_kursus = '$ID' ASC ");
+            <?php 
                $NO = 1;
                $LIMIT = $KURSUS['jumlah_chp'];
                 while($NO <= $LIMIT ) {
